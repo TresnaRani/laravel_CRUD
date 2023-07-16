@@ -10,12 +10,10 @@ use App\Models\Student;
 
 class UserSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     */
+   
     public function run(): void
     {
-        for($i=0;$i<100;$i++)
+        for($i=0;$i<105;$i++)
         {
             Student::create([
                 'name'=> "Tresna rani",
